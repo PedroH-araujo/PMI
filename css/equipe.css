@@ -1,0 +1,61 @@
+:root{
+   --transition: all 1000ms ease-in-out
+}
+
+
+#equipe{
+   margin: 10px auto;
+   height: 800px;
+   width: 1015px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   justify-content: center;
+   justify-items: center;
+}
+
+.pessoa{
+   position: relative;
+   width: 99%;
+   height: 99%;
+}
+
+.img{
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+.overlay{
+   position: absolute;
+   background: rgba(198, 196, 196, 0.988);
+   width: 100%;
+   height: 100%;
+   top: 0;
+   opacity: 0;
+   transition: var(--transition);
+}
+
+.texto{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);/* PARA A VERSÃO DE INTERNET EXPLORER ENTENDER*/
+}
+
+.overlay:hover{
+   opacity: 0.6;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ MEDIA QUERIE $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+@media (max-width: 1000px) {
+   #equipe{
+      grid-template-columns: auto;
+      max-width: 100%;
+   }
+
+   .texto:nth-child(1){
+      left: 56%;
+      top: 47%;
+   }
+}

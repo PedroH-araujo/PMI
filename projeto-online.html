@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Projeto Online</title>
+   <!--STYLE-->
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+   <link rel="stylesheet" href="css/form.css">
+   
+   <!-- FAVICON -->
+   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+   
+   
+</head>
+<body>
+   <header>
+      <nav>
+         <a href="index.html"><img class="logo" src="imagens/Studio_Life_logo.png"></a>
+         <ul type ='none' id="navList">
+            <li><a href="residencial.html">Residencial</a></li>
+            <li><a href="interiores.html">Interiores</a></li>
+            <li><a href="institucional.html">Institucional</a></li>
+            <li><a href="conceito-life.html">Conceito Life</a></li>
+            <li><a href="concurso.html">Concurso</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="contato.html">Contato</a></li>
+         </ul>
+         
+      <button id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+      <button id="close-btn"><span class="material-icons-sharp">close</span></button>
+
+      </nav>
+   </header>
+   <div id="menu-bar">
+      <ul type ='none'>
+         <li><a href="residencial.html">Residencial</a></li>
+         <li><a href="interiores.html">Interiores</a></li>
+         <li><a href="institucional.html">Institucional</a></li>
+         <li><a href="conceito-life.html">Conceito Life</a></li>
+         <li><a href="concurso.html">Concurso</a></li>
+         <li><a href="equipe.html">Equipe</a></li>
+         <li><a href="contato.html">Contato</a></li>
+      </ul>
+   </div>
+   <hr>
+   <main>
+      
+      <form action="https://formsubmit.co/pedrohva.pba@gmail.com" method="POST">
+         
+         
+         <div class="residencial">
+            <h1>Dados Residenciais</h1>
+            
+            <p><label for="inome">Nome Completo:</label></p>
+            
+            <input type="text" name="nome" id="inome">
+            <p><label for="icpf">CPF:</label></p>
+            
+            <input type="number" name="cpf" id="icpf">
+            <p><label for="iemail">E-mail:</label></p>
+            
+            <input type="email" name="email" id="iemail">
+            <p><label for="inumber">Telefone:</label></p>
+            
+            <input type="number" name="number" id="inumber">
+            <p><label for="iquadra">Quadra:</label></p>
+               <input type="number" name="quadra" id="iquadra">
+            
+            <p><label for="ilote">Lote:</label></p>
+               <input type="number" name="lote" id="ilote">
+            
+            <p><label for="imetroquadrado">Metro Quadrado desejado:</label></p>
+               <input type="number" name="metroquadrado" id="imetroquadrado">
+            
+         </div>
+      
+
+         <fieldset>
+            <legend>Ambientes Internos: </legend>
+            <div class="checkbox">
+               <label for="isala/cozinhaintegrado">Sala/Cozinha integrado </label>
+               <input type="checkbox" name="sala/cozinhaintegrado" id="isala/cozinhaintegrado">
+               <label for="isala/cozinhaseparado">Sala/Cozinha Separado</label>
+               <input type="checkbox" name="sala/cozinhaseparado" id="isala/cozinhaseparado">
+               <label for="ipiscina">Piscina</label>
+               <input type="checkbox" name="piscina" id="ipiscina">
+               <label for="ipergola">Pérgola</label>
+               <input type="checkbox" name="pergola" id="ipergola">
+               <label for="igazebo">Gazebo</label>
+               <input type="checkbox" name="gazebo" id="igazebo">
+               <label for="ideck">Deck</label>
+               <input type="checkbox" name="deck" id="ideck">
+            </div>
+
+
+            <div class="internos">
+               <div>
+                  <p><label for="idormitorio">Dormitórios:</label></p>
+                     <input type="number" name="dormitorio" id="idormitorio">
+               
+                  <p><label for="isuite">Suítes</label></p>
+                     <input type="number" name="suite" id="isuite">
+               
+                  <p><label for="ibanheiro">Banheiros:</label></p>
+                     <input type="number" name="banheiro" id="ibanheiro">
+               
+                  <p><label for="iHome">Home(Sala de Tv)</label></p>
+                     <input type="number" name="Home" id="iHome">
+               
+                  <p><label for="ilavabo">Lavabo</label></p>
+                     <input type="number" name="lavabo" id="ilavabo">
+               
+                  <p><label for="iescritorio">Escritório:</label></p>
+                     <input type="number" name="escritorio" id="iescritorio">
+               </div>
+               <div>
+                  <p><label for="iliving">Living (Sala de estar):</label></p>
+                     <input type="number" name="living" id="iliving">
+                  <p><label for="iareaserviço">Área de Serviço:</label></p>
+                     <input type="number" name="areaserviço" id="iareaserviço">
+                  <p><label for="icozinha"> Cozinha:</label></p>
+                     <input type="number" name="cozinha" id="icozinha">
+                  <p><label for="iareagourmet">Área Gourmet:</label></p>
+                     <input type="number" name="areagourmet" id="iareagourmet">
+                  <p><label for="ihallentrada">Hall de Entrada:</label></p>
+                     <input type="number" name="hallentrada" id="ihallentrada">
+                  <p><label for="idespensa">Despensa (Depósito):</label></p>
+                     <input type="number" name="despensa" id="idespensa">
+               </div>
+            </div> 
+         </fieldset>
+
+         <fieldset>
+            <legend>Fachada: </legend>
+            <div class="checkbox">
+               <label for="icasaterrea">Casa Térrea </label>
+               <input type="checkbox" name="casaterrea" id="icasaterrea">
+               <label for="icasasobrado">Casa Sobrado</label>
+               <input type="checkbox" name="casasobrado" id="icasasobrado">
+               <label for="itelhadoaparente">Telhado Aparente</label>
+               <input type="checkbox" name="telhadoaparente" id="itelhadoaparente">
+               <label for="itelhadoplatibanda">Telhado Platibanda (Caixote)</label>
+               <input type="checkbox" name="telhadoplatibanda" id="itelhadoplatibanda">
+            </div>
+         </fieldset>
+
+
+         <fieldset>
+            <legend>Elementos da fachada (Opcional): </legend>
+               <div class="checkbox">
+                  <label for="iestruturametalica">Estrutura Metálica</label>
+                  <input type="checkbox" name="estruturametalica" id="iestruturametalica">
+                  <label for="iestruturamadeira">Estrutura Madeira</label>
+                  <input type="checkbox" name="estruturamadeira" id="iestruturamadeira">
+                  <label for="ietruturarevestimento">Estrutura Revestimentos</label>
+                  <input type="checkbox" name="etruturarevestimento" id="ietruturarevestimento">
+               </div>
+         </fieldset>
+
+         
+         <fieldset>
+            <legend>Estilo arquitetônico: </legend>
+            <div class="checkbox">
+               <label for="iclassico">Clássico</label>
+               <input type="checkbox" name="classico" id="iclassico">
+               <label for="imoderno">Moderno</label>
+               <input type="checkbox" name="moderno" id="imoderno">
+               <label for="irustico">Rustico</label>
+               <input type="checkbox" name="rustico" id="irustico">
+               <label for="icontemporaneo">Contemporâneo</label>
+               <input type="checkbox" name="contemporaneo" id="icontemporaneo">
+            </div>
+         </fieldset>
+
+      
+         <fieldset>
+            <legend>Hidráulica: </legend>
+            <div class="checkbox">
+               <label for="iduchahigienica">Ducha Higiênica</label>
+               <input type="checkbox" name="duchahigienica" id="iduchahigienica">
+               <label for="iaguaquente">Água Quente</label>
+               <input type="checkbox" name="aguaquente" id="iaguaquente">
+               <label for="icaixaacoplada">Caixa Acoplada</label>
+               <input type="checkbox" name="caixaacoplada" id="icaixaacoplada">
+               <label for="ivasohidra">Vaso Hidra</label>
+               <input type="checkbox" name="vasohidra" id="ivasohidra">
+               <label for="ipressurisador">Pressurisador</label>
+               <input type="checkbox" name="pressurisador" id="ipressurisador">
+               <label for="ipoçoartesiano">Poço Artesiano</label>
+               <input type="checkbox" name="poçoartesiano" id="ipoçoartesiano">
+            </div>
+         </fieldset>
+
+         <fieldset>
+            <legend>Elétrica: </legend>
+            <div class="checkbox">
+               <label for="iplacasolar">Placa Solar</label>
+               <input type="checkbox" name="placasolar" id="iplacasolar">
+            </div>
+         </fieldset>
+
+         <legend>Observações:</legend>
+            <textarea name="mensagem" id="imensagem" cols="30" rows="5"></textarea>
+         
+         <input class="enviar" type="submit" value="Enviar">
+      </form>
+   </main>
+   <script src="main.js"></script>
+</body>
