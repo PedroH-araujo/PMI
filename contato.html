@@ -61,11 +61,11 @@
          </div>
          <form action="https://formsubmit.co/Studiolifearquitetura@hotmail.com" method="POST">
             <p><label for="inome">Nome</label></p>
-            <input type="text" name="nome" id="inome" >
+            <input type="text" name="nome" id="inome" required>
             <p><label for="itelefone">Telefone</label></p>
-            <input type="tel" maxlength="15" onkeyup="handlePhone(event)" name="telefone" id="itelefone">
+            <input type="tel" maxlength="15" onkeyup="handlePhone(event)" name="telefone" id="itelefone" required>
             <p><label for="iemail">Email</label></p>
-            <input type="email" name="email" id="iemail">
+            <input type="email" name="email" id="iemail" required>
             <p><label for="imensagem">Mensagem</label></p>
             <textarea name="mensagem" id="imensagem" cols="30" rows="10"></textarea>
             <input class="enviar" type="submit" value="Enviar">
