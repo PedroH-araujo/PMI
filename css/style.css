@@ -79,62 +79,6 @@ footer>p{
    font-size: 15px;
 }
 
-.container {
-   max-width: 1000px;
-   margin: 20px auto;
-   padding: 0 20px;
-   font-size: 16px !important;
-}
-
-.header {
-   background-color: #f2f2f2;
-   padding: 20px;
-   margin-bottom: 20px;
-   border-radius: 10px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
-.header h1 {
-   margin-top: 0;
-   font-size: 20px;
-}
-
-.descritivo {
-   font-style: italic;
-   font-size: 16px;
-}
-
-.informacoes-gerais {
-   background-color: #f9f9f9;
-   padding: 20px;
-   border-radius: 10px;
-}
-
-.informacoes-gerais h2 {
-   margin-top: 0;
-   font-size: 20px;
-}
-
-.informacoes-gerais ul {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   list-style-type: none;
-   padding: 0;
-}
-
-.informacoes-gerais ul li {
-   margin-bottom: 10px;
-   font-size: 16px;
-}
-
-.informacoes-gerais ul li strong {
-   font-weight: bold;
-   font-size: 16px;
-}
-
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ MEDIA QUERIE $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 @media (max-width: 1000px) {
