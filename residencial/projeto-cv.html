@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio-Life</title>
+  <!--STYLE-->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/lightbox.css">
+  <link rel="stylesheet" href="../css/foto.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../index.html"><img class="logo" src="../imagens/Studio_Life_logo.png"></a>
+      <ul type='none' id="navList">
+        <li><a href="../residencial.html" class="active">Residencial</a></li>
+        <li><a href="../interiores.html">Interiores</a></li>
+        <li><a href="../institucional.html">Institucional</a></li>
+        <li><a href="../conceito-life.html">Conceito Life</a></li>
+        <li><a href="../concurso.html">Concurso</a></li>
+        <li><a href="../equipe.html">Equipe</a></li>
+        <li><a href="../contato.html">Contato</a></li>
+      </ul>
+
+      <button id="menu-btn"><span class="material-icons-sharp">menu</span></button>
+      <button id="close-btn"><span class="material-icons-sharp">close</span></button>
+
+    </nav>
+  </header>
+  <div id="menu-bar">
+    <ul type='none'>
+      <li><a href="../residencial.html" class="active">Residencial</a></li>
+      <li><a href="../interiores.html">Interiores</a></li>
+      <li><a href="../institucional.html">Institucional</a></li>
+      <li><a href="../conceito-life.html">Conceito Life</a></li>
+      <li><a href="../concurso.html">Concurso</a></li>
+      <li><a href="../equipe.html">Equipe</a></li>
+      <li><a href="../contato.html">Contato</a></li>
+    </ul>
+  </div>
+  <hr>
+
+
+  <!-- Images used to open the lightbox -->
+  <main>
+    <div class="row">
+      <div class="column img-grande">
+        <img src="../imagens/residencial/Projeto CV/02.png" onclick="openModal();currentSlide(1)">
+      </div>
+      <div class="container">
+        <div class="header">
+          <h1>Casa VIDA</h1>
+          <p class="descritivo"> Grandes panos de vidro integram a área externo ao ambiente interno, criando uma atmosfera leve e convidativa.A escolha de materiais nobres, como o concreto, madeira e alumínio, garante um visual sofisticado e durável.
+            Mais do que um lar, uma obra de arte que proporciona conforto, beleza e funcionalidade.
+             </p>
+        </div>
+        <section class="informacoes-gerais">
+          <h2>Informações Gerais:</h2>
+          <ul class="informacoes-gerais__list">
+            <li><strong>Localização:</strong> Três Lagoas/MS - Brasil</li>
+            <li><strong>Cliente:</strong> Niego e Josi</li>
+            <li><strong>Data do projeto:</strong> 2023 Finalização</li>
+            <li><strong>Área do projeto:</strong> 402m²</li>
+            <li><strong>Tipo de projeto:</strong> Residencial</li>
+            <li><strong>Estilo:</strong> Contemporânea</li>
+            <li><strong>Arquiteto responsável:</strong> Fernando Fedichina e Lis Fedichina</li>
+          </ul>
+        </section>
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/01.png" onclick="openModal();currentSlide(2)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/05.png" onclick="openModal();currentSlide(3)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/04.png" onclick="openModal();currentSlide(4)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/03.png" onclick="openModal();currentSlide(5)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/06.png" onclick="openModal();currentSlide(6)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/08.png" onclick="openModal();currentSlide(7)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/07.png" onclick="openModal();currentSlide(8)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/09.png" onclick="openModal();currentSlide(9)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/10.png" onclick="openModal();currentSlide(10)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/11.png" onclick="openModal();currentSlide(11)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/12.png" onclick="openModal();currentSlide(12)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/13.png" onclick="openModal();currentSlide(13)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/14.png" onclick="openModal();currentSlide(14)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/15.png" onclick="openModal();currentSlide(15)">
+      </div>
+      <div class="column">
+        <img src="../imagens/residencial/Projeto CV/16.png" onclick="openModal();currentSlide(16)">
+      </div>
+    </div>
+  </main>
+
+  <!-- The Modal/Lightbox -->
+  <div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/02.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/01.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/05.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/04.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/03.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/06.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/08.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/07.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/09.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/010.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/11.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/12.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/13.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/14.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/15.png" style="width:100%">
+      </div>
+
+      <div class="mySlides">
+        <img src="../imagens/residencial/Projeto CV/16.png" style="width:100%">
+      </div>
+
+
+      <!-- Next/previous controls -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    </div>
+
+    <script src="../lightbox.js"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>
